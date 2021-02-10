@@ -37,7 +37,7 @@
             </Button.Background>
         </Button>
         <StackPanel Width="80" Margin="440,400,80,50" Cursor="Hand" MouseLeftButtonDown="StackPanel_MouseLeftButtonDown">
-            <Image x:Name="image4" HorizontalAlignment="Left" Height="80" Margin="0,0,0,0" VerticalAlignment="Top" Width="80" Source="resources/DownLoad.png"/>
+            <Image x:Name="image4" HorizontalAlignment="Left" Height="80" Margin="0,0,0,0" VerticalAlignment="Top" Width="80" Source="resources/DownLoad.png" ToolTip="下载图片"/>
             <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Height="60" Margin="0,0,0,0" TextWrapping="Wrap" Text="下载" VerticalAlignment="Top" Width="80" FontSize="36"/>
         </StackPanel>
         

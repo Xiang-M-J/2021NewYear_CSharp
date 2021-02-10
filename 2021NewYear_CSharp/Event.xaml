@@ -31,9 +31,9 @@
 
         <Border BorderBrush="#FF7A6900" BorderThickness="5" HorizontalAlignment="Left" Height="260" Margin="60,100,0,0" VerticalAlignment="Top" Width="300"/>
         <StackPanel Width="600" Height="80" Margin="100,390,100,30" Orientation="Horizontal" >
-            <Image x:Name="image4" HorizontalAlignment="Left" Height="60" Margin="90,10,0,0" VerticalAlignment="Top" Width="60" Source="resources/last.png" Cursor="Hand" MouseLeftButtonDown="Image4_MouseLeftButtonDown"/>
-            <Image x:Name="image6" HorizontalAlignment="Left" Height="60" Margin="60,10,0,0" VerticalAlignment="Top" Width="180" Source="resources/LearnMore.png" Cursor="Hand" MouseLeftButtonDown="Image6_MouseLeftButtonDown"/>
-            <Image x:Name="image5" HorizontalAlignment="Left" Height="60" Margin="60,10,0,0" VerticalAlignment="Top" Width="60" Source="resources/next.png" Cursor="Hand" MouseLeftButtonDown="Image5_MouseLeftButtonDown" />
+            <Image x:Name="image4" HorizontalAlignment="Left" Height="60" Margin="90,10,0,0" VerticalAlignment="Top" Width="60" Source="resources/last.png" Cursor="Hand" MouseLeftButtonDown="Image4_MouseLeftButtonDown" ToolTip="上一个"/>
+            <Image x:Name="image6" HorizontalAlignment="Left" Height="60" Margin="60,10,0,0" VerticalAlignment="Top" Width="180" Source="resources/LearnMore.png" Cursor="Hand" MouseLeftButtonDown="Image6_MouseLeftButtonDown" ToolTip="了解更多"/>
+            <Image x:Name="image5" HorizontalAlignment="Left" Height="60" Margin="60,10,0,0" VerticalAlignment="Top" Width="60" Source="resources/next.png" Cursor="Hand" MouseLeftButtonDown="Image5_MouseLeftButtonDown" ToolTip="下一个" />
         </StackPanel>
         <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="40" Margin="180,50,0,0" TextWrapping="Wrap" 
                  Text="TextBlock" VerticalAlignment="Top" Width="60" FontSize="30" TextAlignment="Center" IsReadOnly="True"

@@ -95,12 +95,7 @@ namespace _2021NewYear_CSharp
             
         }
 
-        private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
-        {
-            mediaElement.Volume = slider.Value;
-            
-        }
-
+        
         private void CheckBox1_Click(object sender, RoutedEventArgs e)
         {
             if (checkBox1.IsChecked == true)
@@ -125,5 +120,7 @@ namespace _2021NewYear_CSharp
                 mediaElement.Stop();
             }
         }
+
+       
     }
 }

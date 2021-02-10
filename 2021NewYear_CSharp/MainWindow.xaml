@@ -91,7 +91,7 @@
                              VerticalContentAlignment="Center" BorderBrush="{x:Null}" IsReadOnly="True" />
                 </StackPanel>
             </Button>
-            <Image Width="40" Height="40" x:Name="image8" Margin="740,-500,0,0" Source="resources/About.ico" Cursor="Hand" MouseLeftButtonDown="Image8_MouseLeftButtonDown"/>
+            <Image Width="40" Height="40" x:Name="image8" Margin="740,-500,0,0" Source="resources/About.ico" Cursor="Hand" MouseLeftButtonDown="Image8_MouseLeftButtonDown" ToolTip="关于"/>
             
 
         </Grid>
